@@ -1,0 +1,125 @@
+header {
+    text-align: center;
+    top: 0;
+}
+
+header > h1 {
+    background-color: blueviolet;
+    padding: 25px;
+    font-size: 55px;
+    color: aliceblue;
+    font-family: cursive;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.navbar {
+    position: fixed;
+    width: 99%;
+    font-size: 35px;
+    text-align: center;
+    background-color: blue;
+    font-family: cursive;
+    font-weight: bold;
+    margin-top: -38px;
+    opacity: 0.5;
+}
+
+ul {
+    display: inline-block;
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    color: white;
+    border: 5px solid red;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+li:hover {
+    background-color: red;
+}
+
+li:active {
+    background-color: blue;
+}
+
+article {
+    margin: 200px 150px 15px;
+}
+
+article > div {
+    margin: 10px 20px 5px;
+    display: table;
+    background-color: white;
+}
+
+article > div > img {
+    float: left;
+    margin-right: 25px;
+    margin-left: 15px;
+}
+
+table {
+    margin: auto;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+th, tr, td {
+    border: 2px solid black;
+    padding: 5px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+td:nth-child(2):hover {
+    background-color: orange;
+}
+
+td:nth-child(3):hover {
+    background-color: orange;
+}
+
+td:nth-child(4):hover {
+    background-color: orange;
+}
+
+article > div > p {
+    padding: 10px;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+body { 
+    background-image: url("../img/viajes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h2 {
+    margin-left: 15px;
+}
+
+footer {
+    margin: 10px 170px 5px;
+}
+
+.copyright {
+    border: 5px solid violet;
+    background-color: black;
+}
+
+.copyright > p {
+    margin-left: 20px;
+    font-size: 20px;
+    color: darkviolet;
+    font-family: cursive;
+}
